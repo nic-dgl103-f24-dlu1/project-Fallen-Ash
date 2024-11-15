@@ -37,10 +37,10 @@ Market](https://www.kehlervegetables.ca/)
 
 - Colours: The original website is mostly black and white with images used as the background. There is a green in the logo however that we can use as well.
 
-  1. #5C8039/ is the colour of the logo.
-  2. #3E5426/ will be used for the main text.
-  3. #3E6990/ will be used as the highlighting contrast colour.
-  4. #ffffff/ will be the neutral background.
+  1. #5C8039 is the colour of the logo.
+  2. #3E5426 will be used for the main text.
+  3. #3E6990 will be used as the highlighting contrast colour.
+  4. #ffffff will be the neutral background.
 
 - Images: we can use the logo, and the main background image from the homepage, as well as the images from the about, and contact pages.
 
@@ -50,11 +50,62 @@ Market](https://www.kehlervegetables.ca/)
 
 1. Homepage
 
-   Header
+### 1. Header
 
-   - Logo
-   - Navigation
-     - Home
-     - Contact
-     - About
-   - Background Image
+- Logo
+
+- Navigation
+
+  - Home
+  - Contact
+  - About
+
+- Background Image
+
+### 2. Hero
+
+- Heading
+
+- Image
+
+- Short Summary
+
+### 3. About
+
+- Heading
+
+- Paragraph
+
+- Image
+
+- Link to about page
+
+### 4. Check Us Out
+
+- Heading
+
+- Location
+
+- Paragraph
+
+- List of social media images
+
+### 5. Contact
+
+- Heading
+
+- Contact Form
+
+- Link to contact page
+
+- Map embed
+
+### 6. Footer
+
+- Heading
+
+- Navigation: home, about, contact
+
+- Address: street address, number, email, social media
+
+- Copyright notice
