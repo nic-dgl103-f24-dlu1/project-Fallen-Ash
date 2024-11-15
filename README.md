@@ -25,5 +25,7 @@ Market](https://www.kehlervegetables.ca/)
   - The young family farm doesn't really have the same kind of colour scheme that I was thinking of, but it does have a similar approachable vibe with images that match both the products and the theme.
     <https://www.youngfamilyfarm.com/>
 
+  ![Young Family Farm Homepage image 1] (images/young-family-farm-homepage1.png)
+
   - Little Qualicum Cheeseworks is much cleaner and more minimilistic than the previous website design, and fit a bit more with calming, layout as it is uncluttered and simple. I am hopefully aiming for a happy medium between the two sites.
     <https://cheeseworks.ca/>
