@@ -34,3 +34,27 @@ Market](https://www.kehlervegetables.ca/)
   ![Cheeseworks Homepage image 1](images/cheeseworks-homepage1.png)
   ![Cheeseworks Homepage image 2](images/cheeseworks-homepage2.png)
   ![Cheeseworks Homepage image 3](images/cheeseworks-homepage3.png)
+
+- Colours: The original website is mostly black and white with images used as the background. There is a green in the logo however that we can use as well.
+
+  1. #5C8039/ is the colour of the logo.
+  2. #3E5426/ will be used for the main text.
+  3. #3E6990/ will be used as the highlighting contrast colour.
+  4. #ffffff/ will be the neutral background.
+
+- Images: we can use the logo, and the main background image from the homepage, as well as the images from the about, and contact pages.
+
+- Fonts: Old standard tt will be used for the headers, and then oxygen for the body.
+
+## Website Content:
+
+1. Homepage
+
+   Header
+
+   - Logo
+   - Navigation
+     - Home
+     - Contact
+     - About
+   - Background Image
