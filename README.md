@@ -48,9 +48,9 @@ Market](https://www.kehlervegetables.ca/)
 
 ## Website Content:
 
-1. Homepage
+### 1. Homepage
 
-### 1. Header
+#### 1. Header
 
 - Logo
 
@@ -62,7 +62,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Background Image
 
-### 2. Hero
+#### 2. Hero
 
 - Heading
 
@@ -70,7 +70,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Short Summary
 
-### 3. About
+#### 3. About
 
 - Heading
 
@@ -80,7 +80,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Link to about page
 
-### 4. Check Us Out
+#### 4. Check Us Out
 
 - Heading
 
@@ -90,7 +90,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - List of social media images
 
-### 5. Contact
+#### 5. Contact
 
 - Heading
 
@@ -100,7 +100,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Map embed
 
-### 6. Footer
+#### 6. Footer
 
 - Heading
 
