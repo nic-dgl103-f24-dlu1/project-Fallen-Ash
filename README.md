@@ -74,7 +74,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Heading
 
-- Paragraph
+- Paragraph detailing who the company is and what they do
 
 - Image
 
@@ -109,3 +109,55 @@ Market](https://www.kehlervegetables.ca/)
 - Address: street address, number, email, social media
 
 - Copyright notice
+
+### 2. About Us Page
+
+#### 1. Header
+
+- Same as the home page: logo, navigation, background image
+
+#### 2. hero (smaller than the home page version/)/
+
+- Heading
+
+- Current Hours table
+
+- Image
+
+#### 3. Who we are section
+
+- Heading
+
+- Paragraph
+
+- Video
+
+#### 4. Footer
+
+- Same content as homepage footer
+
+### 3. Contact Us Page
+
+#### 1. Header
+
+- Same as the previous pages
+
+#### 2. Hero
+
+- Heading
+
+- Paragraph detailing location and ways to contact the business
+
+- Map Embed
+
+#### 3. Contact section
+
+- Heading
+
+- Background Image
+
+- Contact form
+
+#### 4. Footer
+
+- Same as the previous pages footer.
