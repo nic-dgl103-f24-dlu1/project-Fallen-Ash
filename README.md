@@ -116,7 +116,7 @@ Market](https://www.kehlervegetables.ca/)
 
 - Same as the home page: logo, navigation, background image
 
-#### 2. hero (smaller than the home page version/)/
+#### 2. hero (smaller than the home page version)
 
 - Heading
 
