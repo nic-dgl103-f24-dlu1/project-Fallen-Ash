@@ -104,6 +104,10 @@ nav a{
 /*=====End of Nav=====*/
 
 /*=====LAYOUT=====*/
+
+/*=======
+ Header
+========*/
 header{
     display: flex;
     justify-content: space-between;
@@ -114,6 +118,14 @@ header{
 }
 
 header img{
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
+
+/*=====
+ End of header
+ ======*/
+
+/*=====
+ Hero
+ =====*/
+ .homepage-hero{}
