@@ -1,6 +1,6 @@
 /*STYLES=========================
 1. Global 
-2.Typography (headers, paragraphs, lists, buttons)
+2.Typography (nav, lists, buttons)
 3.Overall Layout Structure (header, main, footer)
 4. Content Blocks (sections, articles, forms, tables, cards)
 5. Page Specific (homepage, about page, contact page)
@@ -63,7 +63,10 @@ p{
   
 /*=====END OF GLOBAL=====*/
 
-/*=====Typography=====*/
+/*=====Typography====
+  (Nav, lists, buttons)
+  =====*/
+
 
 /*==========
   Navigation
@@ -143,9 +146,14 @@ header img{
     width:150px;
     height:350px;
 }
+ .homepage-hero h1{
+    grid-area: header;
+    text-align: center;
 
- .homepage-hero h1{grid-area: header;}
+    }
 
  #hero-para1{grid-area: para1;}
  #hero-para2{grid-area: para2;}
  #hero-para3{grid-area: para3;}
+
+ 
