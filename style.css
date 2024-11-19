@@ -1,2 +1,21 @@
 html{font-size: 62.5%;}
 body{font-size: 1.6rem;}
+
+.oxygen-light {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .oxygen-regular {
+    font-family: "Oxygen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oxygen-bold {
+    font-family: "Oxygen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
