@@ -88,6 +88,7 @@ nav a{
     cursor: pointer;
     top: 32px;
     margin: 15px 0px;
+    color: #fff;
   }
 /*=====End of Nav=====*/
 
@@ -97,6 +98,8 @@ header{
     justify-content: space-between;
     border: 1px solid #3E5426;
     border-radius: 15px;
+    background-image:url(images/headerbackground.jpg);
+    background-position:bottom;
 }
 
 header img{
