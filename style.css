@@ -61,6 +61,8 @@ p{color:#3E5426;}
 nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 10px;
   }
 nav ul {
     list-style-type: none;
@@ -80,4 +82,19 @@ nav ul {
     position: absolute;
     cursor: pointer;
     top: 32px;
+    margin: 15px 0px;
   }
+/*=====End of Nav=====*/
+
+/*=====LAYOUT=====*/
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #3E5426;
+    border-radius: 25px;
+}
+
+header img{
+    border-radius: 20px;
+    
+}
