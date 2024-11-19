@@ -23,6 +23,11 @@ p{
     font-style: normal;
     color:#3E5426;
 }
+a{
+    font-family:'Old Standard TT', serif;
+    font-weight: 400;
+    font-style: italic;
+}
 
 .oxygen-light {
     font-family: "Oxygen", serif;
@@ -156,7 +161,6 @@ header img{
     padding-right: 5px;
     font-size: 1.4rem;
 }
-
  #hero-para1{
     grid-area: para1;
 }
@@ -166,5 +170,21 @@ header img{
  #hero-para3{
     grid-area: para3;
 }
+/*=====
+ End of Hero
+=====*/
 
- 
+/*=====
+ About
+=====*/
+.homepage-about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-about a{
+    color: #3E5426;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
