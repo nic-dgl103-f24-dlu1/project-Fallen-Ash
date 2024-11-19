@@ -18,38 +18,60 @@ body img{width: 100px;}
     font-style: normal;
   }
   
-  .oxygen-regular {
+.oxygen-regular {
     font-family: "Oxygen", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .oxygen-bold {
+.oxygen-bold {
     font-family: "Oxygen", serif;
     font-weight: 700;
     font-style: normal;
   }
   
-  .old-standard-tt-regular {
+.old-standard-tt-regular {
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .old-standard-tt-bold {
+.old-standard-tt-bold {
     font-family: "Old Standard TT", serif;
     font-weight: 700;
     font-style: normal;
   }
   
-  .old-standard-tt-regular-italic {
+.old-standard-tt-regular-italic {
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-style: italic;
   }
 
   
-  /*=====END OF GLOBAL=====*/
+/*=====END OF GLOBAL=====*/
 
-  /*=====Typography=====*/
+/*=====Typography=====*/
 
+/*==========
+  Navigation
+  ==========*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+.show-items {
+    display: flex;
+  }
+
+  nav .toggle {
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
+    top: 32px;
+  }
