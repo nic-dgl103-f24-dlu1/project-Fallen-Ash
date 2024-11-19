@@ -56,6 +56,10 @@ body img{width: 100px;}
 /*==========
   Navigation
   ==========*/
+nav {
+    display: flex;
+    flex-direction: column;
+  }
 nav ul {
     list-style-type: none;
     margin: 0;
