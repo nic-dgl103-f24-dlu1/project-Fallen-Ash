@@ -155,7 +155,7 @@ header img{
 }
  .homepage-hero h1{
     grid-area: header;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     }
 .homepage-hero p{
     margin:5px 5px 0px 0px;
@@ -186,7 +186,7 @@ header img{
 }
 .homepage-about h2{
     margin: 25px 10px 0px 10px;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
 }
 .homepage-about a{
     color: #3E5426;
@@ -216,7 +216,7 @@ header img{
     grid-row: 1;
     justify-self: center;
     align-self:center;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
 }
 .check-us-out p{
     grid-column: 1/4;
