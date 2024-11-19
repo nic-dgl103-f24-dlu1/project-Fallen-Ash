@@ -98,8 +98,6 @@ Market](https://www.kehlervegetables.ca/)
 
 - Link to contact page
 
-- Map embed
-
 ##### 6. Footer
 
 - Heading
