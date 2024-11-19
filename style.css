@@ -70,9 +70,13 @@ nav ul {
     padding: 0;
     display: flex;
     flex-direction: column;
+    padding-right:25px;
     display: none;
   }
-
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .show-items {
     display: flex;
   }
