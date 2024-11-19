@@ -1,3 +1,13 @@
+/*STYLES=========================
+1. Global 
+2.Typography (headers, paragraphs, lists, buttons)
+3.Overall Layout Structure (header, main, footer)
+4. Content Blocks (sections, articles, forms, tables, cards)
+5. Page Specific (homepage, about page, contact page)
+==================================*/
+
+
+
 html{font-size: 62.5%;}
 body{font-size: 1.6rem;}
 
