@@ -206,9 +206,13 @@ header img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
+    text-align: center;
 }
-
 .check-us-out p{
     grid-column: 1/4;
     grid-row: 2;
+}
+.check-us-out address{
+    grid-column: 1/4;
+    grid-row: 3;
 }
