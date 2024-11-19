@@ -11,6 +11,8 @@
 html{font-size: 62.5%;}
 body{font-size: 1.6rem;}
 body img{width: 100px;}
+h1, h2, h3{color:#3E6990}
+p{color:#3E5426;}
 
 .oxygen-light {
     font-family: "Oxygen", serif;
