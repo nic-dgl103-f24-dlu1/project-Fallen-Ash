@@ -106,6 +106,8 @@ Market](https://www.kehlervegetables.ca/)
 
 - Address: street address, number, email, social media
 
+- Disclaimer
+
 - Copyright notice
 
 ### 2. About Us Page
