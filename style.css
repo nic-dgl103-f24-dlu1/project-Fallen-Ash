@@ -315,7 +315,7 @@ footer p{grid-area: copyright; text-align: center;}
     font-style: normal;}
 .homepage-form-wrapper{
     background-color: rgb(214, 214, 214);
-    max-width: 350px;
+    width: 350px;
     box-sizing: border-box;
     padding:20px;
     margin: 5px auto;
@@ -512,6 +512,11 @@ header nav a{font-style: normal;}
     font-size: 4.4rem;
     margin: 35px 25px 25px 35px;
 }
+.homepage-form-wrapper{
+    width: 750px;
+    height: 500px;
+}
+
 
 }
 
@@ -522,4 +527,3 @@ header nav a{font-style: normal;}
 
 
 
-}
