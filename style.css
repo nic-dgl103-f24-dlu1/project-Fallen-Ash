@@ -332,3 +332,45 @@ footer p{grid-area: copyright; text-align: center;}
 /*=====
  End of Contact Section
 =====*/
+
+/*--------LARGE SCREENS (1200px and up)-----------*/
+
+@media only screen and (min-width: 1200px){
+/*=====Global=====*/
+body {width: 1200px;background-color: bisque; margin:0px;}
+
+
+/*=====Layout=====*/
+header{
+    display:flex;
+    flex-direction: row;
+    min-width:1200px;
+    height: 200px;
+    margin: 15px 20px;
+    
+}
+header img{width:200px;}
+nav .toggle{ display:none;}
+#nav-items{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    justify-items: start;
+    align-items: center;
+    padding: 5px 20px;
+    margin:15px;
+    width:650px;
+    line-height: 40px;
+    font-size:3.2rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+}
+header nav a{font-style: normal;}
+
+
+
+
+
+
+
+}
