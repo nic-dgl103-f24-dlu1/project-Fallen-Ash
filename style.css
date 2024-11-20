@@ -382,7 +382,7 @@ header nav a{font-style: normal;}
 .homepage-hero{width:1200px;}
 .homepage-hero h1{font-size: 4.6rem; padding:25px; margin:25px; font-weight: 700;}
 .homepage-hero p{
-    font-size: 1.8rem; 
+    font-size: 2.3rem; 
     width: 540px; 
     margin:20px; 
     padding-right:30px;
@@ -401,27 +401,43 @@ header nav a{font-style: normal;}
  About Section
 =====*/
 .homepage-about{display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     width:1200px;
-    height: 500px;
+    height: auto;
+    border: 1px solid #fff;
+
 }
+/*box-shadow taken from getcssscan.com*/
 .homepage-about h2{
     font-size: 4.4rem; 
-    width: 250px;
-    order:2;
+    width: 650px;
+    margin-top:50px;
+    border:1px solid #3E6990;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    order:1
 }
 .homepage-about p{
-    font-size: 2.0rem;
-    width:450px;
-    justify-content: flex-start;
-    order: 1;
+    font-size: 2.3rem;
+    width:800px;
+    justify-content:center;
+    order:2;  
 }
 .homepage-about a{
     font-size: 1.8rem;
-    width:150px;
-    order: 3;
+    font-style: normal;
+    text-decoration: none;
+    width:200px;
+    order:3;  
 }
-
+.homepage-about img{
+    width:550px; 
+    height:400px;
+    order:4;
+    border: 3px solid #3E6990;
+    border-radius:15px;  
+}
 
 
 }
