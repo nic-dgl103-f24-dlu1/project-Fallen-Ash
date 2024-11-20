@@ -337,10 +337,15 @@ footer p{grid-area: copyright; text-align: center;}
 
 @media only screen and (min-width: 1200px){
 /*=====Global=====*/
-body {width: 1200px;background-color: bisque; margin:0px;}
+body {min-width: 1200px;
+    margin:0px;}
 
 
 /*=====Layout=====*/
+
+/*=====
+ Header
+=====*/
 header{
     display:flex;
     flex-direction: row;
@@ -366,8 +371,34 @@ nav .toggle{ display:none;}
     font-weight: 700;
 }
 header nav a{font-style: normal;}
+/*=====
+ End of Header
+=====*/
 
+/*=====Content Blocks=====*/
+/*=====
+ Hero Section
+=====*/
+.homepage-hero{width:1200px;}
+.homepage-hero h1{font-size: 4.6rem; padding:25px; margin:25px; font-weight: 700;}
+.homepage-hero p{
+    font-size: 1.8rem; 
+    width: 550px; 
+    margin:20px; 
+    padding-right:30px;
+    justify-items: flex-start; 
+    align-self:center}
+.homepage-hero img{
+    width:600px;
+    border-radius: 20px;
+}
+/*=====
+ End of Hero Section
+=====*/
 
+/*=====
+ About Section
+=====*/
 
 
 
