@@ -109,36 +109,50 @@
       </section>
       <!----end of check us out section---->
       <!----start of contact section---->
-      <section>
+      <section class="homepage-contact">
         <h2>Contact Us Today</h2>
         <a href="#"
           >Contact us for any whole sale inquiries or other questions</a
         >
         <!--Not sure what the action portion should be. if it is being posted to where?-->
-        <form method="post" action="#">
-          <label for="name">Name</label>
-          <input type="text" name="name" placeholder="Ex: Jane Smith" />
+        <div class="homepage-form-wrapper">
+          <form method="post" action="#">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ex: Jane Smith"
+            />
 
-          <label for="phone">Phone Number</label>
-          <input type="tel" name="phone" placeholder="145-667-3825" />
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="145-667-3825"
+            />
 
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="Ex: Jane.Smith123@gmail.com"
-            required
-          />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ex: Jane.Smith123@gmail.com"
+              required
+            />
 
-          <label for="message">Message</label>
-          <textarea
-            name="message"
-            placeholder="Let us know any questions you might have about the farm and our products, or contact us for any whole sale inquiries"
-          ></textarea>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Let us know any questions you might have about the farm and our products, or contact us for any whole sale inquiries"
+            ></textarea>
 
-          <input type="reset" value="reset" />
-          <input type="submit" value="submit" />
-        </form>
+            <input type="reset" value="reset" />
+            <input type="submit" value="submit" />
+          </form>
+        </div>
       </section>
       <!----end of contact section---->
     </main>
