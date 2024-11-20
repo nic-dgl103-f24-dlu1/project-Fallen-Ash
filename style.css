@@ -115,6 +115,17 @@ nav a{
   }
 /*=====End of Nav=====*/
 
+/*=====Contact Form=====*/
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: 'Oxygen', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/*=====End of Contact Form=====*/
+
 /*=====LAYOUT=====*/
 
 /*=======
@@ -321,14 +332,7 @@ footer p{grid-area: copyright; text-align: center;}
 #message{
     height: 200px
 }
-.form-buttons{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-family: 'Oxygen', serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-}
+
 /*=====
  End of Contact Section
 =====*/
@@ -503,7 +507,13 @@ header nav a{font-style: normal;}
 /*=====
  Contact Form
 =====*/
+.homepage-contact h2{
+    text-align: left;
+    font-size: 4.4rem;
+    margin: 35px 25px 25px 35px;
+}
 
+}
 
 
 
