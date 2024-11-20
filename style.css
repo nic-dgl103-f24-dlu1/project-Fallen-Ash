@@ -507,16 +507,41 @@ header nav a{font-style: normal;}
 /*=====
  Contact Form
 =====*/
+.homepage-contact{text-align: left;}
 .homepage-contact h2{
     text-align: left;
     font-size: 4.4rem;
     margin: 35px 25px 25px 35px;
 }
-.homepage-form-wrapper{
-    width: 750px;
-    height: 500px;
+.homepage-contact a{
+    font-size: 1.8rem;
+    text-align: start;
+    width:250px;
+    margin-left:35px;
 }
+.homepage-form-wrapper{
+    width: 800px;
+    height: 550px;
+}
+.homepage-contact form{
+    width:750px;
+    height:500px;
+    font-size: 2.5rem;
+}
+label{width: 550px;}
+#name{
+    font-size: 2.4rem;
+}
+#phone{
+    font-size:2.4rem;
+}
+#email{
+    font-size: 2.4rem;
+}
+#message{font-size:2.4rem;height:460px;}
 
+input[type=reset]{width:100px; height:50px; font-size:2.1rem;}
+input[type=submit]{width:100px; height:50px; font-size:2.1rem;}
 
 }
 
