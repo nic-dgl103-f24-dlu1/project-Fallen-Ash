@@ -338,7 +338,9 @@ footer p{grid-area: copyright; text-align: center;}
 @media only screen and (min-width: 1200px){
 /*=====Global=====*/
 body {min-width: 1200px;
-    margin:0px;}
+    margin:0px;
+    text-align: center;
+}
 
 
 /*=====Layout=====*/
@@ -438,6 +440,76 @@ header nav a{font-style: normal;}
     border: 3px solid #3E6990;
     border-radius:15px;  
 }
+/*=====
+ End of About
+=====*/
+
+/*=====
+ Check Us Out
+=====*/
+.check-us-out{
+    width:1200px;
+}
+.check-us-out h2{
+    grid-column: 1/4;
+    grid-row: 1;
+    width:650px;
+    font-size: 4.4rem;
+    margin-top:80px;
+    border:1px solid #3E6990;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.check-us-out p{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 2.3rem;
+    width:550px;
+}
+.check-us-out address{
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 1.8rem;
+    height:150px;
+}
+.check-us-out address a{
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-style: normal;
+    color: black; }
+.cuo-img1{
+    grid-column: 1;
+    grid-row: 2/4;
+    width:300px;
+    height:450px;
+}
+.cuo-img3{
+    grid-column: 3;
+    grid-row: 2/4;
+    width:300px;
+    height:450px;
+}
+.cuo-img2{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    align-self: flex-end;
+    width: 525px;
+    height: 245px;
+}
+/*=====
+ End of Check Us Out
+=====*/
+
+/*=====
+ Contact Form
+=====*/
+
+
+
+
+
+
+
 
 
 }
