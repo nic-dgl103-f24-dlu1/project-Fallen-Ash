@@ -347,7 +347,9 @@ body {min-width: 1200px;
 }
 
 
-/*=====Layout=====*/
+/*=================
+    Layout
+==================*/
 
 /*=====
  Header
@@ -381,7 +383,23 @@ header nav a{font-style: normal;}
  End of Header
 =====*/
 
-/*=====Content Blocks=====*/
+/*=====
+ Footer
+=====*/
+footer{width:1200px;}
+footer h2{
+    font-size:4.4rem;
+    text-align:left;
+    margin-left:35px;
+    border:1px solid #3E6990;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/*===========================
+    Content Blocks
+=============================*/
+
 /*=====
  Hero Section
 =====*/
@@ -512,6 +530,9 @@ header nav a{font-style: normal;}
     text-align: left;
     font-size: 4.4rem;
     margin: 35px 25px 25px 35px;
+    border-radius: 15px;
+    border:1px solid #3E6990;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .homepage-contact a{
     font-size: 1.8rem;
@@ -538,11 +559,18 @@ label{width: 550px;}
 #email{
     font-size: 2.4rem;
 }
-#message{font-size:2.4rem;height:460px;}
-
-input[type=reset]{width:100px; height:50px; font-size:2.1rem;}
-input[type=submit]{width:100px; height:50px; font-size:2.1rem;}
-
+#message{font-size:2.4rem;
+    height:460px;}
+input[type=reset]{width:100px; 
+    height:50px; 
+    font-size:2.1rem;}
+input[type=submit]{width:100px; 
+    height:50px; 
+    font-size:2.1rem;
+}
+/*=====
+ End of Contact Form
+=====*/
 }
 
 
