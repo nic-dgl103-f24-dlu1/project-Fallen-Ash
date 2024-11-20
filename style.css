@@ -386,11 +386,15 @@ header nav a{font-style: normal;}
 /*=====
  Footer
 =====*/
-footer{width:1200px;}
+footer{
+    width:1200px;
+    height:430px;
+}
 footer h2{
     font-size:4.4rem;
-    width:450px;
-    text-align:left;
+    width:750px;
+    text-align:center;
+    justify-self: center;
     margin-left:35px;
     border:1px solid #3E6990;
     border-radius: 15px;
@@ -400,10 +404,16 @@ footer address{font-size: 2.1rem;}
 #footer-nav{
     font-size: 2.1rem;
 }
-#footer-nav ol{
-    list-style-type: none;
+#footer-nav ol{list-style-type: none;}
+#footer-nav a{
+    text-decoration: none;
     font-size: 2.1rem;
-
+}
+footer p{
+    font-size: 2.0rem;
+    width:650px;
+    justify-self:center;
+    align-self: center;
 }
 
 /*===========================
