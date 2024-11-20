@@ -342,7 +342,7 @@ footer p{grid-area: copyright; text-align: center;}
 
 @media only screen and (min-width: 1200px){
 /*=====Global=====*/
-body {min-width: 1200px;
+body {max-width: 1200px;
     margin:0px;
     text-align: center;
 }
@@ -389,7 +389,9 @@ header nav a{font-style: normal;}
 =====*/
 footer{
     width:1200px;
-    height:430px;
+    height:440px;
+    border:1px solid #3E6990;
+    border-radius: 15px;
 }
 footer h2{
     font-size:4.4rem;
