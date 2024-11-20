@@ -349,9 +349,9 @@ body {min-width: 1200px;
 header{
     display:flex;
     flex-direction: row;
-    min-width:1200px;
+    width:1185px;
     height: 200px;
-    margin: 15px 20px;
+    margin: 15px;
     
 }
 header img{width:200px;}
@@ -383,13 +383,14 @@ header nav a{font-style: normal;}
 .homepage-hero h1{font-size: 4.6rem; padding:25px; margin:25px; font-weight: 700;}
 .homepage-hero p{
     font-size: 1.8rem; 
-    width: 550px; 
+    width: 540px; 
     margin:20px; 
     padding-right:30px;
     justify-items: flex-start; 
     align-self:center}
 .homepage-hero img{
-    width:600px;
+    width:580px;
+    height: 360px;
     border-radius: 20px;
 }
 /*=====
@@ -399,7 +400,9 @@ header nav a{font-style: normal;}
 /*=====
  About Section
 =====*/
-
+.homepage-about{
+    width:1200px;
+}
 
 
 
