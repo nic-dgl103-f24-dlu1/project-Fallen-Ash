@@ -391,9 +391,9 @@ caption{
     color: #3E5426;
 }
 .about-hero img{
-    width: 275px;
-    margin:30px 40px;
-    border: 1px solid #3E6990;
+    width: 298px;
+    margin:30px;
+    border: 2px solid #3E6990;
     border-radius: 15px;
     
 }
@@ -406,16 +406,28 @@ caption{
  Who we are section
 =====*/
 .who-we-are{
+    text-align: center;
+}
+#who-we-are-h2{font-size: 3.2rem;
+}
+#wwa-grow, #wwa-shop{font-size: 2.6rem;}
+
+.who-we-are p{margin: 15px 25px;}
+.contact-button{color: black; 
+    font-weight: 700; 
+    font-size: 1.4rem; 
+    text-transform: uppercase;
+    width: 220px;
+    margin:10px 30px;
 
 }
-#who-we-are-h2{font-size: 3.0rem;
-
+.contact-button a{text-decoration: none;}
+.about-video {
+    max-width: 360px;
+    border: 2px solid #3E6990;
+    border-radius: 15px;
+    margin-top:15px;
 }
-
-.contact-button{
-
-}
-
 
 
 
