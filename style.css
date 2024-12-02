@@ -455,16 +455,22 @@ caption{
 /*==========CONTACT PAGE==========*/
 
 /*=====
- Who we are section
+ Hero section
+=====*/
+.contact-hero{text-align: center;}
+
+/*=====
+ End of Hero section
 =====*/
 
+/*=====
+ Form section
+=====*/
+.contact-form-h2{
+    text-align: center;   
+}
 
-
-
-
-
-
-
+/*==========END OF CONTACT PAGE==========*/
 
 
 
@@ -549,9 +555,48 @@ footer p{
     justify-self:center;
     align-self: center;
 }
+/*=====
+ End of Footer
+=====*/
+/*==========END OF GLOBAL==========*/
+/*==========ADD ONS==========*/
+/*=====
+ Contact Form
+=====*/
+.homepage-form-wrapper{
+    width: 800px;
+    height: 550px;
+}
+.homepage-contact form{
+    width:750px;
+    height:500px;
+    font-size: 2.5rem;
+}
+label{width: 550px;}
+#name{
+    font-size: 2.4rem;
+}
+#phone{
+    font-size:2.4rem;
+}
+#email{
+    font-size: 2.4rem;
+}
+#message{font-size:2.4rem;
+    height:460px;}
+input[type=reset]{width:100px; 
+    height:50px; 
+    font-size:2.1rem;}
+input[type=submit]{width:100px; 
+    height:50px; 
+    font-size:2.1rem;
+}
+/*=====
+ End of Contact Form
+=====*/
 
-/*==========SPECIFIC==========*/
 
+/*==========HOMEPAGE==========*/
 /*=====
  Hero Section
 =====*/
@@ -695,37 +740,15 @@ footer p{
     color: #3E6990;
     font-weight: 700;
 }
-.homepage-form-wrapper{
-    width: 800px;
-    height: 550px;
-}
-.homepage-contact form{
-    width:750px;
-    height:500px;
-    font-size: 2.5rem;
-}
-label{width: 550px;}
-#name{
-    font-size: 2.4rem;
-}
-#phone{
-    font-size:2.4rem;
-}
-#email{
-    font-size: 2.4rem;
-}
-#message{font-size:2.4rem;
-    height:460px;}
-input[type=reset]{width:100px; 
-    height:50px; 
-    font-size:2.1rem;}
-input[type=submit]{width:100px; 
-    height:50px; 
-    font-size:2.1rem;
-}
 /*=====
  End of Contact Form
 =====*/
+/*==========END OF HOMEPAGE==========*/
+/*==========ABOUT PAGE==========*/
+
+
+
+
 }
 
 
