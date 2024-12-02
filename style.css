@@ -1,9 +1,7 @@
 /*STYLES=========================
-1. Global 
-2.Typography (nav, lists, buttons)
-3.Overall Layout Structure (header, main, footer)
-4. Content Blocks (sections, articles, forms, tables, cards)
-5. Page Specific (homepage, about page, contact page)
+1. Global (used in all three pages)
+2. Add-ons (table, video, forms, navigation)
+3. Page Specific (home, about, contact)
 ==================================*/
 
 
@@ -13,7 +11,7 @@ body{
     font-size: 1.6rem;
     max-width:375px;
 }
-body img{width: 100px;}
+
 h1, h2, h3{
     font-family: 'Old Standard TT', serif;
     font-weight: 700;
@@ -70,13 +68,54 @@ a{
     font-style: italic;
   }
 
+/*=======
+ Header
+========*/
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #3E5426;
+    border-radius: 15px;
+    background-image:url(images/headerbackground.jpg);
+    background-position:bottom;
+}
+
+header img{width: 100px;
+    border-radius: 20px;   
+}
+
+/*=====
+ End of header
+ ======*/
+
+/*=====
+  Footer
+=====*/
+footer{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav address"
+    ". address"
+    "disclaimer disclaimer"
+    "copyright copyright"
+}
+footer h2{grid-area: header;
+    text-align: center; justify-items: center; align-self: center;}
+#footer-nav a{grid-area: nav;
+    font-size: 1.2rem; color:black; font-weight: 400; font-style: normal; text-decoration: underline;
+}
+footer address{grid-area:address; font-size: 1.4rem;}
+footer p{grid-area: copyright; text-align: center;}
+.disclaimer{grid-area: disclaimer;}
+/*=====
+  End of Footer
+=====*/
   
 /*=====END OF GLOBAL=====*/
 
-/*=====Typography====
-  (Nav, lists, buttons)
-  =====*/
 
+/*==========ADD-ONS==========*/
 
 /*==========
   Navigation
@@ -127,56 +166,13 @@ nav a{
 }
 /*=====End of Contact Form=====*/
 
-/*=====LAYOUT=====*/
+/*==========TABLE==========*/
 
-/*=======
- Header
-========*/
-header{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #3E5426;
-    border-radius: 15px;
-    background-image:url(images/headerbackground.jpg);
-    background-position:bottom;
-}
+/*==========END OF ADD-ONS==========*/
 
-header img{
-    border-radius: 20px;   
-}
-
+/*==========HOMEPAGE SPECIFIC==========*/
 /*=====
- End of header
- ======*/
-
- /*=====
-  Footer
-=====*/
-footer{
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "nav address"
-    ". address"
-    "disclaimer disclaimer"
-    "copyright copyright"
-    ;
-   
-}
-footer h2{grid-area: header;
-    text-align: center; justify-items: center; align-self: center;}
-#footer-nav a{grid-area: nav;
-    font-size: 1.2rem; color:black; font-weight: 400; font-style: normal; text-decoration: underline;
-}
-footer address{grid-area:address; font-size: 1.4rem;}
-footer p{grid-area: copyright; text-align: center;}
-.disclaimer{grid-area: disclaimer;}
-
-
-/*========Content Blocks========*/
-
-/*=====
- Hero
+ Homepage Hero
  =====*/
  .homepage-hero{
     display: grid;
@@ -338,6 +334,9 @@ footer p{grid-area: copyright; text-align: center;}
  End of Contact Section
 =====*/
 
+/*==========ABOUT PAGE==========*/
+
+
 /*--------LARGE SCREENS (1200px and up)-----------*/
 
 @media only screen and (min-width: 1200px){
@@ -348,9 +347,7 @@ body {max-width: 1200px;
 }
 
 
-/*=================
-    Layout
-==================*/
+/*==========GLOBAL==========*/
 
 /*=====
  Header
@@ -360,8 +357,7 @@ header{
     flex-direction: row;
     width:1185px;
     height: 200px;
-    margin: 15px;
-    
+    margin: 15px;  
 }
 header img{width:200px;}
 nav .toggle{ display:none;}
@@ -389,7 +385,7 @@ header nav a{font-style: normal;}
 =====*/
 footer{
     width:1200px;
-    height:440px;
+    height:44 0px;
     border:1px solid #3E6990;
     border-radius: 15px;
 }
@@ -422,9 +418,7 @@ footer p{
     align-self: center;
 }
 
-/*===========================
-    Content Blocks
-=============================*/
+/*==========SPECIFIC==========*/
 
 /*=====
  Hero Section
