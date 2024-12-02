@@ -205,6 +205,9 @@ table{
 }
 
 #table-fall{background-color: rgb(243, 242, 242) ;}
+/*==========END OF TABLE==========*/
+
+
 /*==========END OF ADD-ONS==========*/
 
 /*==========HOMEPAGE SPECIFIC==========*/
@@ -372,6 +375,63 @@ table{
 =====*/
 
 /*==========ABOUT PAGE==========*/
+/*=====
+ Hero Section
+=====*/
+.about-hero{text-align: center;}
+.about-hero h1{
+    font-size: 3.4rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+}
+caption{
+    font-size: 2.5rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+    color: #3E5426;
+}
+.about-hero img{
+    width: 275px;
+    margin:30px 40px;
+    border: 1px solid #3E6990;
+    border-radius: 15px;
+    
+}
+
+/*=====
+ End of Hero Section
+=====*/
+
+/*=====
+ Who we are section
+=====*/
+.who-we-are{
+
+}
+#who-we-are-h2{font-size: 3.0rem;
+
+}
+
+.contact-button{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------LARGE SCREENS (1200px and up)-----------*/
