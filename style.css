@@ -500,6 +500,7 @@ caption{
 /*=====Global=====*/
 body {max-width: 1200px;
     margin:20px;
+    margin-left: 35px;
     text-align: center;
 }
 
@@ -828,15 +829,52 @@ input[type=submit]{width:100px;
     "p3 p3"
     "button button";
     font-size: 2.0rem;
-    width: 1200px;
+    width: 1195px;
+    border: 1px solid #3E6990;
+    border-radius: 15px;
+    margin-bottom:5px;
 }
-#who-we-are-h2{grid-area: h2;}
-#wwa-p1{grid-area: p1;  font-size: 2.2rem;}
-#wwa-grow{grid-area: grow;}
-#wwa-p2{grid-area: p2; font-size: 2.2rem}
-#wwa-shop{grid-area: shop;}
-#wwa-p3{grid-area: p3; font-size: 2.2rem}
-.contact-button{grid-area: button; width:fit-content;}
+#who-we-are-h2{
+    grid-area: h2; 
+    font-size: 4.8rem;
+}
+#wwa-p1{grid-area: p1;
+    font-size: 2.2rem; 
+    align-self: center;
+    justify-self: center;
+    width:500px;
+}
+#wwa-grow{
+    grid-area: grow; 
+    font-size: 3.8rem;
+}
+#wwa-p2{
+    grid-area: p2; 
+    font-size: 2.2rem; 
+    width:850px; 
+    justify-self: center;
+    line-height: 34px;
+    text-align: center;
+}
+#wwa-shop{
+    grid-area: shop;
+    font-size: 3.8rem;
+}
+#wwa-p3{
+    grid-area: p3; 
+    font-size: 2.2rem;
+    width:850px; 
+    justify-self: center;
+    line-height: 34px;
+    text-align: center;
+}
+.contact-button{
+    grid-area: button; 
+    width:fit-content;
+    justify-self: center;
+    font-weight: 700;
+    margin:25px;
+}
 
 
 
