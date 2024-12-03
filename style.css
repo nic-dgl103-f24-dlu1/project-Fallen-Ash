@@ -167,7 +167,9 @@ nav a{
   }
 /*=====End of Nav=====*/
 
-/*=====Contact Form=====*/
+/*=====
+ Contact Form
+=====*/
 .form-wrapper{
     background-color: rgb(214, 214, 214);
     width: 350px;
@@ -208,9 +210,13 @@ nav a{
     background-color: #3e542652
 }
 #contact-required{color:yellow;}
-/*=====End of Contact Form=====*/
+/*=====
+ End of Contact Form
+=====*/
 
-/*==========TABLE==========*/
+/*=====
+ Table
+=====*/
 table{
     border: 3px solid rgb(230, 230, 230);
     font-family: 'Oxygen',serif;
@@ -218,8 +224,12 @@ table{
 }
 
 #table-fall{background-color: rgb(243, 242, 242) ;}
-/*==========END OF TABLE==========*/
-/*==========INLINE FRAME MAP==========*/
+/*=====
+ End of Table
+=====*/
+/*=====
+ Inline Frame Map
+=====*/
 .map-embed{
     max-width: 375px;
     width:360px;
@@ -227,7 +237,21 @@ table{
 
     border-radius: 15px;
 }
-/*==========END OF INLINE FRAME MAP==========*/
+/*=====
+ End of Inline Frame Map
+=====*/
+/*=====
+ About VIDEO
+=====*/
+.about-video {
+    max-width: 360px;
+    border: 2px solid #3E6990;
+    border-radius: 15px;
+    margin-top:15px;
+}
+/*=====
+ End of About VIDEO
+=====*/
 /*==========END OF ADD-ONS==========*/
 
 /*==========HOMEPAGE SPECIFIC==========*/
@@ -443,12 +467,7 @@ caption{
 
 }
 .contact-button a{text-decoration: none;}
-.about-video {
-    max-width: 360px;
-    border: 2px solid #3E6990;
-    border-radius: 15px;
-    margin-top:15px;
-}
+
 
 /*==========END OF ABOUT PAGE==========*/
 
@@ -596,7 +615,19 @@ input[type=submit]{width:100px;
 /*=====
  End of Contact Form
 =====*/
-
+/*=====
+ About Video
+=====*/
+.about-video {
+    max-width: 500px;
+    border: 2px solid #3E6990;
+    border-radius: 15px;
+    margin-top:15px;
+    justify-self: center;
+}
+/*=====
+ About Video
+=====*/
 
 /*==========HOMEPAGE==========*/
 /*=====
@@ -790,18 +821,22 @@ input[type=submit]{width:100px;
     display: grid;
     grid-template-areas: 
     "h2 h2"
-    "p1 video"
-    "grow p2"
-    "shop p3"
+    "video p1"
+    "grow grow"
+    "p2 p2"
+    "shop shop"
+    "p3 p3"
     "button button";
+    font-size: 2.0rem;
+    width: 1200px;
 }
 #who-we-are-h2{grid-area: h2;}
-#wwa-p1{grid-area: p1;}
+#wwa-p1{grid-area: p1;  font-size: 2.2rem;}
 #wwa-grow{grid-area: grow;}
-#wwa-p2{grid-area: p2;}
+#wwa-p2{grid-area: p2; font-size: 2.2rem}
 #wwa-shop{grid-area: shop;}
-#wwa-p3{grid-area: p3;}
-.contact-button{grid-area: button;}
+#wwa-p3{grid-area: p3; font-size: 2.2rem}
+.contact-button{grid-area: button; width:fit-content;}
 
 
 
