@@ -250,7 +250,6 @@ table{
     max-width: 375px;
     width:360px;
     margin-right: 15px;
-
     border-radius: 15px;
 }
 /*=====
@@ -259,12 +258,16 @@ table{
 /*=====
  About Contact Us Button
 =====*/
-.contact-button{color: #3E5426; 
+.contact-button{display: flex;
+    color: #3E5426; 
     font-weight: 700; 
     font-size: 1.2rem; 
     font-family: 'Oxygen', serif;
     text-transform: uppercase;
-    width: 275px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
     height: 60px;
     margin:10px 30px;
     cursor: pointer;
@@ -277,9 +280,7 @@ table{
     background-color: #3E6990; 
     color: #fff;
     animation-duration: 2s;
-    ;
 }
-.contact-button a{text-decoration: none;}
 .contact-button a:hover{color: #fff; animation-duration: 2s;}
 
 /*=====
@@ -701,6 +702,7 @@ input[type=submit]:hover, input[type=reset]:hover{
     font-size: 1.6rem; 
     font-family: 'Oxygen', serif;
     justify-self: center;
+    align-content:center;
     text-transform: uppercase;
     width: 500px;
     height: 60px;
@@ -710,6 +712,7 @@ input[type=submit]:hover, input[type=reset]:hover{
     border: 2px solid #3E6990;
     border-radius: 15px;
     transition: all 0.8s ease-in-out;
+    text-decoration: none;
 }
 .contact-button:hover{
     background-color: #3E6990; 
@@ -718,7 +721,6 @@ input[type=submit]:hover, input[type=reset]:hover{
     animation-duration: 2s;
     border:2px solid #3E5426;
 }
-.contact-button a{text-decoration: none;}
 .contact-button a:hover{color: #fff; animation-duration: 2s;}
 
 
