@@ -587,13 +587,13 @@ footer p{
  Contact Form
 =====*/
 .form-wrapper{
-    width: 800px;
-    height: 550px;
+    width: 850px;
+    height: 650px;
     margin-bottom:15px;
 }
 .homepage-contact form{
-    width:750px;
-    height:500px;
+    width:800px;
+    height:610px;
     font-size: 2.5rem;
 }
 label{width: 550px;}
@@ -607,13 +607,19 @@ label{width: 550px;}
     font-size: 2.4rem;
 }
 #message{font-size:2.4rem;
-    height:460px;}
+    height:300px;}
 input[type=reset]{width:100px; 
     height:50px; 
     font-size:2.1rem;}
 input[type=submit]{width:100px; 
     height:50px; 
     font-size:2.1rem;
+}
+#contact-us-form{
+    width:800px; 
+    height:650px;
+    text-align:left;
+    margin-left:5px;
 }
 /*=====
  End of Contact Form
@@ -913,7 +919,9 @@ input[type=submit]{width:100px;
 /*=====
  Contact Us Section
 =====*/
-
+#contact-form-bg{
+    width:860px;
+    height:750px;}
 
 }
 
