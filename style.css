@@ -651,15 +651,23 @@ input[type=submit]{width:100px;
     align-self: center;
 }
 #contact-us-form label{font-size: 2.7rem;}
-#contact-us-form input[type=submit]{
+
+input[type=submit],input[type=reset]{
     width:125px; 
     font-size: 2.2rem;
+    color: #3E5426;
+    background-color: #f5f5f5;
+    border: 2px solid #3E6990;
+    border-radius: 15px;
+    transition: all 0.8s ease-in-out;}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color: #fff;
+    background-color: #3E6990;
+    border: 2px solid #3E5426;
     border-radius:15px;
-}
-#contact-us-form input[type=reset]{
-    width:125px; 
-    font-size: 2.2rem;
-    border-radius:15px;
+    animation-name: form-buttons;
+    animation-duration: 2s;
 }
 /*=====
  End of Contact Form
@@ -696,6 +704,7 @@ input[type=submit]{width:100px;
 .contact-button:hover{
     background-color: #3E6990; 
     color: #fff;
+    animation-name: contact-button;
     animation-duration: 2s;
     border:2px solid #3E5426;
 }
