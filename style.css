@@ -241,6 +241,34 @@ table{
  End of Inline Frame Map
 =====*/
 /*=====
+ About Contact Us Button
+=====*/
+.contact-button{color: black; 
+    font-weight: 700; 
+    font-size: 1.4rem; 
+    font-family: 'Oxygen', serif;
+    text-transform: uppercase;
+    width: 230px;
+    height: 100px;
+    margin:10px 30px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border: 1px solid #3E6990;
+    border-radius: 15px;
+}
+.contact-button:hover{
+    background-color: #3E6990; 
+    color: #fff;
+    animation-duration: 2s;
+    ;
+}
+.contact-button a{text-decoration: none;}
+.contact-button a:hover{color: #fff; animation-duration: 2s;}
+
+/*=====
+ End Of About Contact Us Button
+=====*/
+/*=====
  About VIDEO
 =====*/
 .about-video {
@@ -505,7 +533,12 @@ body {max-width: 1200px;
     margin-left: 35px;
     text-align: center;
 }
-
+button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #00c6b5;
+    animation-name: example;
+    animation-duration: 4s;
+  }
 
 /*==========END OF GLOBAL==========*/
 
