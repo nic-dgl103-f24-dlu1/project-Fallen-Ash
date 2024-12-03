@@ -480,12 +480,12 @@ caption{
 @media only screen and (min-width: 1200px){
 /*=====Global=====*/
 body {max-width: 1200px;
-    margin:0px;
+    margin:20px;
     text-align: center;
 }
 
 
-/*==========GLOBAL==========*/
+/*==========END OF GLOBAL==========*/
 
 /*=====
  Header
@@ -495,7 +495,8 @@ header{
     flex-direction: row;
     width:1185px;
     height: 200px;
-    margin: 15px;  
+    margin: 5px;  
+    margin-right:20px;
 }
 header img{width:200px;}
 nav .toggle{ display:none;}
@@ -563,9 +564,10 @@ footer p{
 /*=====
  Contact Form
 =====*/
-.homepage-form-wrapper{
+.form-wrapper{
     width: 800px;
     height: 550px;
+    margin-bottom:15px;
 }
 .homepage-contact form{
     width:750px;
@@ -722,21 +724,19 @@ input[type=submit]{width:100px;
 /*=====
  Contact Form
 =====*/
-.homepage-contact{text-align: left;}
+.homepage-contact{text-align: center;}
 .homepage-contact h2{
-    text-align: left;
     font-size: 4.4rem;
-    width:450px;
-    margin: 35px 25px 25px 35px;
+    width:650px;
+    margin-left:275px;
     border-radius: 15px;
     border:1px solid #3E6990;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .homepage-contact a{
     font-size: 1.8rem;
-    text-align: start;
+    text-align: center;
     width:250px;
-    margin-left:35px;
     color: #3E6990;
     font-weight: 700;
 }
@@ -745,6 +745,69 @@ input[type=submit]{width:100px;
 =====*/
 /*==========END OF HOMEPAGE==========*/
 /*==========ABOUT PAGE==========*/
+/*=====
+ About Hero Section
+=====*/
+.about-hero{
+    display:grid;
+    grid-template-areas: 
+    "h1 h1"
+    "table img "
+    "table img ";
+    width:1186px;
+    border: 1px solid #3E6990;
+    border-radius:15px;
+    margin:5px;
+}
+.about-hero table{
+    width:500px;
+    height: 250px;
+    margin-left:50px;
+    margin-top: 35px;
+    align-items: center;
+    grid-area: table;
+    font-size: 2.4rem;
+    
+}
+.about-hero h1{
+    grid-area: h1; 
+    font-size:4.8rem; 
+    width:1200px;
+    text-align: center;
+}
+.about-hero caption{font-size: 3.4rem;}
+.about-hero img{
+    grid-area: img; 
+    width:500px;
+}
+/*=====
+ End of About Hero Section
+=====*/
+/*=====
+ Who We Are Section
+=====*/
+.who-we-are{
+    display: grid;
+    grid-template-areas: 
+    "h2 h2"
+    "p1 video"
+    "grow p2"
+    "shop p3"
+    "button button";
+}
+#who-we-are-h2{grid-area: h2;}
+#wwa-p1{grid-area: p1;}
+#wwa-grow{grid-area: grow;}
+#wwa-p2{grid-area: p2;}
+#wwa-shop{grid-area: shop;}
+#wwa-p3{grid-area: p3;}
+.contact-button{grid-area: button;}
+
+
+
+
+
+
 
 
 
